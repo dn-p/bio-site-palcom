@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Glacial Indifference;
+    src: url('fonts/GlacialIndifference-Regular.otf') format('opentype');
+    src:url('fonts/GlacialIndifference-Bold.otf') format('opentype');
+}
+body {
+    background: url('images/bg.gif') no-repeat center center fixed;
+    background-size: 100%;
+    font-family: Glacial Indifference, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+.banner {
+    width: 100%;
+}
+.menu h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #ffb200;
+    margin-top: 20px;
+}
+.menu button {
+    color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #80d4ff;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #4A90E2, #1E88E5);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.menu button:hover {
+    background: #80d4ff;
+    color: white;
+}
+.social-media {
+    margin-top: 20px;
+}
+.social-media h5 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffb200;
+}
+.social-media img {
+    fill: #ffb200;
+    width: 40px;
+    margin: 5px;
+}
